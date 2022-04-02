@@ -11,11 +11,11 @@ inputs:
   armbian_soc:
     description: "Set Amlogic SoC."
     required: false
-    default: "s905d_s905x3"
+    default: "s905x"
   armbian_kernel:
     description: "Set kernel."
     required: false
-    default: "5.15.25_5.4.180"
+    default: "5.15.32"
   version_branch:
     description: "Set kernel."
     required: false
@@ -44,7 +44,7 @@ inputs:
   kernel_version:
     description: "select kernel version"
     required: false
-    default: "5.15.25_5.4.180"
+    default: "5.15.32"
   kernel_auto:
     description: "Auto use the latest kernel"
     required: false
